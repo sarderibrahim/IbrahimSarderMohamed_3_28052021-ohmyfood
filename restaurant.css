@@ -40,9 +40,13 @@ body {
 }
 
 .header .logo {
-  font-family: 'Shrikhand',cursive;
-  font-weight: bold;
-  font-style: italic;
+  width: 150px;
+}
+
+.header .logo .logoimage {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .image {
@@ -358,13 +362,18 @@ body {
   padding: 0 2rem;
   width: 100%;
   max-width: 1440px;
+  margin-bottom: 2rem;
 }
 
 .footer .footer_container .footer_logo {
-  font-family: 'Shrikhand', cursive;
-  color: white;
-  font-size: 20px;
-  padding: 1rem 0;
+  padding: 1.5rem 0 1rem 0;
+  width: 110px;
+}
+
+.footer .footer_container .footer_logo .flogoimage {
+  width: 100%;
+  -webkit-filter: brightness(200);
+          filter: brightness(200);
 }
 
 .footer .footer_container .footer_options {
@@ -403,6 +412,7 @@ body {
 .footer .footer_container .footer_option i {
   margin-right: 7px;
   width: 30px;
+  text-align: left;
 }
 
 .footer .footer_container .footer_option .footer_text {
