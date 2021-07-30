@@ -152,12 +152,14 @@ a {
   padding: 1rem 2rem;
   text-align: center;
   min-height: 12rem;
+  margin-bottom: 2rem;
 }
 
 .main .explore .reservation {
   font-size: 24px;
   font-weight: 800;
   margin-top: 0;
+  font-family: roboto;
 }
 
 .main .explore .information {
@@ -209,6 +211,11 @@ a {
   font-size: 20px;
 }
 
+.main .function li i {
+  margin-right: 7px;
+  color: #9356dc;
+}
+
 .main .function li::before {
   counter-increment: mon-compteur;
   content: counter(mon-compteur);
@@ -249,7 +256,7 @@ a {
 }
 
 .main .restaurants .rtitle {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0;
   font-size: 20px;
 }
 
@@ -338,6 +345,7 @@ a {
 
 .main .restaurants .choices .choice .imgtext .lal-shada .lal {
   position: relative;
+  color: black;
 }
 
 .main .restaurants .choices .choice .imgtext .lal-shada .shada {
@@ -371,16 +379,21 @@ a {
 }
 
 .footer .footer_container {
-  padding: 0 40px;
+  padding: 0 2rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
+  margin-bottom: 2rem;
 }
 
 .footer .footer_container .footer_logo {
-  font-family: 'Shrikhand', cursive;
-  color: white;
-  font-size: 20px;
-  padding: 15px 0;
+  padding: 1.5rem 0 1rem 0;
+  width: 110px;
+}
+
+.footer .footer_container .footer_logo .flogoimage {
+  width: 100%;
+  -webkit-filter: brightness(200);
+          filter: brightness(200);
 }
 
 .footer .footer_container .footer_options {
@@ -416,8 +429,10 @@ a {
   text-decoration: underline;
 }
 
-.footer .footer_container .footer_option .footer_options i {
+.footer .footer_container .footer_option i {
   margin-right: 7px;
+  width: 30px;
+  text-align: left;
 }
 
 .footer .footer_container .footer_option .footer_text {
