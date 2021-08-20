@@ -464,8 +464,8 @@ body {
             transform: scaleX(0);
   }
   100% {
-    -webkit-transform: scaleX(-50);
-            transform: scaleX(-50);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
 }
 
@@ -475,8 +475,8 @@ body {
             transform: scaleX(0);
   }
   100% {
-    -webkit-transform: scaleX(-50);
-            transform: scaleX(-50);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
 }
 
