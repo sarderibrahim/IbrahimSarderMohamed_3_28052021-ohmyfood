@@ -426,7 +426,7 @@ body {
   .menu_cards {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
@@ -464,8 +464,8 @@ body {
             transform: scaleX(0);
   }
   100% {
-    -webkit-transform: scaleX(-50px);
-            transform: scaleX(-50px);
+    -webkit-transform: scaleX(-50);
+            transform: scaleX(-50);
   }
 }
 
@@ -475,8 +475,8 @@ body {
             transform: scaleX(0);
   }
   100% {
-    -webkit-transform: scaleX(-50px);
-            transform: scaleX(-50px);
+    -webkit-transform: scaleX(-50);
+            transform: scaleX(-50);
   }
 }
 
