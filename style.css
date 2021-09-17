@@ -33,9 +33,11 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 30px solid transparent;
-  border-top: 30px solid green;
-  border-bottom: 30px solid red;
+  border: 20px solid transparent;
+  border-top: 20px solid green;
+  border-bottom: 20px solid red;
+  border-right: 20px solid blue;
+  border-left: 20px solid #9356dc;
   border-radius: 50%;
   width: 100px;
   height: 100px;
