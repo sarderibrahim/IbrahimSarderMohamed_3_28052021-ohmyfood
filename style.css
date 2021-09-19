@@ -1,7 +1,7 @@
 body {
   margin: auto;
   max-width: 1440px;
-  font-family: 'Roboto', sans-serif;
+  
 }
 
 a {
@@ -132,6 +132,7 @@ a {
 
 .main {
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main .location {
